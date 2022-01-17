@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Recipiente
+comment0.text=\r\n\ Modela\ los\ recipientes\ para\ los\ ingredientes\r\n
+comment1.params=
+comment1.target=Recipiente()
+comment1.text=\r\n\ Constructor\ sin\ parametros.\ Setea\ la\ capacidad\ maxima\ a\ un\r\n\ valor\ por\ defecto\r\n
+comment2.params=capacidadMaxima
+comment2.target=Recipiente(int)
+comment2.text=\r\n\ Constructor\ con\ parametro.\ Setea\ la\ capacidad\ maxima\ al\r\n\ valor\ indicado\r\n\ \r\n\ @param\ capacidadMaxima\ el\ valor\ de\ la\ maxima\ capacidad\ de\r\n\ este\ recipiente\r\n\ @throws\ IllegalArgumentException\ si\ el\ parametro\ excede\ la\r\n\ capacidad\ maxima\ por\ defecto\ o\ es\ un\ valor\ negativo\r\n
+comment3.params=
+comment3.target=Ingrediente\ getTipoIngredienteAlmacenado()
+comment3.text=\r\n\ Devuelve\ el\ tipo\ de\ ingrediente\ que\ almacena\ el\ recipiente\t\r\n\ \r\n\ @return\ el\ ingrediente\ almacenado\r\n
+comment4.params=cantidadAgregada
+comment4.target=void\ agregar(int)
+comment4.text=\r\n\ Agrega\ contenido\ al\ recipiente\r\n\ \r\n\ @param\ cantidadAgregada\ la\ cantidad\ de\ contenido\ a\ agregar\r\n\ @throws\ CapacidadExcedidaException\ cuando\ intenta\ agregarse\r\n\ mas\ contendio\ del\ que\ el\ recipiente\ puede\ alojar\r\n\ @throws\ IllegalArgumentException\ cuando\ la\ cantidad\ a\r\n\ agregar\ es\ un\ valor\ negativo\r\n\ \r\n
+comment5.params=cantidadAExtraer
+comment5.target=void\ extraer(int)
+comment5.text=\r\n\ Extrae\ contenido\ del\ recipiente\r\n\ \r\n\ @param\ cantidadAExtraer\ la\ cantidad\ a\ extraer\r\n\ @throws\ CapacidadExcedidaException\ cuando\ intenta\ extraerse\r\n\ una\ cantidad\ mayor\ a\ la\ diponible\ en\ el\ recipiente\r\n\ @throws\ IllegalArgumentException\ cuando\ la\ cantidad\ a\r\n\ extraer\ es\ un\ valor\ negativo\r\n
+comment6.params=
+comment6.target=int\ getCapacidadMaxima()
+comment6.text=\r\n\ Devuelve\ la\ capacidad\ maxima\ del\ recipiente\r\n\ \r\n\ @return\ la\ capacidad\ maxima\ de\ este\ recipiente.\r\n
+comment7.params=
+comment7.target=int\ getCantidadIngredienteDisponible()
+comment7.text=\r\n\ Devuelve\ la\ cantidad\ de\ ingrediente\ en\ el\ recipiente\r\n\ \r\n\ @return\ la\ cantidad\ de\ contenido\ disponible\ en\ el\ recipiente.\r\n
+numComments=8

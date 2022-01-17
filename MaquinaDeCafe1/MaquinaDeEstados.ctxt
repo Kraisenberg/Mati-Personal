@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MaquinaDeEstados
+comment0.text=\r\n\ Esta\ inferfaz\ representa\ una\ maquina\ de\ estados.\ Las\ siguientes\ son\ transiciones\ validas\r\n\ entre\ estados\r\n\ \r\n\ APAGADO\ ->\ LISTO\r\n\ LISTO\ ->\ APAGADO\r\n\ LISTO\ ->\ OPERANDO\r\n\ LISTO\ ->\ FALLA\r\n\ LISTO\ ->\ MANTENIMIENTO\r\n\ MANTENIMIENTO\ ->\ LISTO\r\n\ OPERANDO\ ->\ LISTO\r\n\ OPERANDO\ ->\ FALLA\r\n
+comment1.params=
+comment1.target=void\ operar()
+comment1.text=\r\n\ Cambia\ al\ estado\ a\ OPERANDO\ \ \r\n\ \r\n\ @throws\ IllegalStateException\ cuando\ se\ intenta\ operar\ desde\ un\ estado\ no\ valido\r\n
+comment2.params=
+comment2.target=void\ restablecer()
+comment2.text=\r\n\ Restablece\ la\ maquina\ desde\ cualquier\ estado\ \r\n\ Cambia\ al\ estado\ LISTO\ (si\ no\ encuentra\ fallas)\r\n\ Cambia\ al\ estado\ FALLA\ (si\ existe\ alguna\ condicion\ de\ error)\r\n\ \r\n\ @throws\ IllegalStateException\ cuando\ se\ intenta\ operar\ desde\ un\ estado\ no\ valido\r\n
+comment3.params=
+comment3.target=void\ encender()
+comment3.text=\r\n\ Enciende\ la\ maquina\ (solo\ desde\ el\ estado\ APAGADO)\ \r\n\ Cambia\ al\ estado\ LISTO\ (si\ no\ encuentra\ fallas)\r\n\ Cambia\ al\ estado\ FALLA\ (si\ existe\ alguna\ condicion\ de\ error)\r\n\ \r\n\ @throws\ IllegalStateException\ cuando\ se\ intenta\ operar\ desde\ un\ estado\ no\ valido\r\n
+comment4.params=
+comment4.target=void\ apagar()
+comment4.text=\r\n\ Apaga\ la\ maquina.\r\n\ Cambia\ al\ estado\ APAGADO\ (si\ no\ encuentra\ fallas)\r\n\ No\ es\ posible\ apagar\ la\ maquina\ si\ esta\ OPERANDO\r\n\ \r\n\ @throws\ IllegalStateException\ cuando\ se\ intenta\ operar\ desde\ un\ estado\ no\ valido\r\n
+comment5.params=
+comment5.target=void\ mantener()
+comment5.text=\ \r\n\ Lleva\ la\ maquina\ a\ estado\ de\ MANTENIMIENTO\r\n\ Cambia\ al\ estado\ \r\n\ \r\n
+comment6.params=
+comment6.target=Estado\ getEstado()
+comment6.text=\r\n\ Retorna\ el\ estado\ actual\ de\ la\ maquina.\r\n\ \r\n\ @return\ estado\ actual\ de\ la\ maquina.\r\n
+numComments=7

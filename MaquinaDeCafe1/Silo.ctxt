@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Silo
+comment0.text=\r\nComplete\ los\ m\u00E9todos\ de\ la\ clase\ Silo\ que\ extiende\ de\ Recipiente,\ de\ acuerdo\ a\ la\ documentaci\u00F3n\ en\ la\ superclase\r\n\ \ \ \ public\ Silo\ (Ingrediente\ ingredienteAlmacenado,\ int\ capacidadMaxima);\r\n\ \ \ \ public\ Silo\ (Ingrediente\ ingredienteAlmacenado);\r\n\ \ \ \ public\ Ingrediente\ getTipoIngredienteAlmacenado();\r\n\ \ \ \ Considere\ los\ casos\ cuando\ no\ hay\ ingrediente\ o\ capacidad\ es\ mayor\ a\ capacidad\ m\u00E1xima\ o\ negativa.\ \r\n
+comment1.params=ingredienteAlmacenado\ capacidadMaxima
+comment1.target=Silo(Ingrediente,\ int)
+comment1.text=\ Constructor\ donde\ recibimos\ un\ ingrediente\ y\ \r\n\ \ \ un\ entero\ para\ fijar\ la\ capacidad\ maxima\r\n
+comment2.params=ingredienteAlmacenado
+comment2.target=Silo(Ingrediente)
+comment2.text=\ \r\n\ \ En\ este\ constructor\ solo\ recibimos\ un\ ingrediente\ como\ parametro\ \r\n
+comment3.params=
+comment3.target=Ingrediente\ getTipoIngredienteAlmacenado()
+comment3.text=\r\n\ metodo\ que\ devuelve\ el\ ingrediente\ como\ retorno\r\n
+comment4.params=ing
+comment4.target=void\ comprobarIngrediente(Ingrediente)
+comment4.text=\r\n\ Metodo\ privado\ que,\ comprueba\ si\ el\ ingediente\ ingresado\ es\ valido\r\n
+comment5.params=num
+comment5.target=void\ comprobarCapacidadMaxima(int)
+comment5.text=\r\n\ este\ metodo\ compreba\ si\ la\ capacidad\ maxima\ es\ valida\r\n
+numComments=6
