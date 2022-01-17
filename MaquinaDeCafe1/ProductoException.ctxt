@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ProductoException
+comment0.text=\r\n\ Excepcion\ para\ falla\ en\ prerarar\ receta\r\n
+comment1.params=s
+comment1.target=ProductoException(java.lang.String)
+numComments=2
